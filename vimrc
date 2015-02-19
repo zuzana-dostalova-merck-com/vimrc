@@ -12,7 +12,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'tpope/vim-rails'
 Plugin 'vim-ruby/vim-ruby'
-Plugin 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
+Plugin 'chriskempson/base16-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -38,7 +38,8 @@ let mapleader=","
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup 
 
-color Tomorrow-Night
+set bg=dark
+color base16-default
 
 " Remember last location in file
 aug last_location
